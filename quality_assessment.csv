@@ -1,0 +1,9 @@
+Metric,Value
+Rows before cleaning,1000
+Rows after cleaning,1000
+Columns after adding row key,13
+Missing Age before cleaning,20
+Missing City before cleaning,13
+Exact duplicate rows before cleaning,0
+Repeated Order_ID extra occurrences,8
+Missing values after cleaning,0

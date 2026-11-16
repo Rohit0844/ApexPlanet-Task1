@@ -1,0 +1,14 @@
+Column_Name,Description,Data_Type,Business_Relevance_and_Notes
+Order_Row_ID,Unique row-level transaction key added during cleaning,Text,Unique record identifier.
+Order_ID,Source order identifier,Text,Not unique in the supplied dataset.
+Order_Date,Date of transaction,Date,Time-based sales analysis.
+Customer_ID,Customer identifier,Text,Customer-level analysis.
+Customer_Name,Customer display name,Text,Customer label/name.
+Age,Customer age in years,Numeric,20 missing values imputed with median.
+Gender,Customer gender category,Categorical,Demographic segmentation.
+City,Customer city,Categorical/Text,13 missing values labelled Unknown.
+Product,Product name,Categorical,Product analysis.
+Category,Product category,Categorical,Category-level analysis.
+Quantity,Units purchased,Integer,Order volume.
+Unit_Price,Price per unit,Decimal,Revenue calculation input.
+Total_Sales,Total transaction sales,Decimal,Quantity multiplied by Unit_Price.
